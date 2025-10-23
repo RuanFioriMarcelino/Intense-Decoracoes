@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+#root {
+  max-height: 100dvh;
+  max-width: 100dvw;
+  margin: 0 auto;
+}
+
+@theme {
+  --color-white: #FFFFFF;
+
+  --color-vinho-100: #A0506B;
+  --color-vinho-200: #792445;
+  --color-vinho-300: #4E0F2E;
+
+  --color-nude-100: #EFD3D7;
+  --color-nude-200: #D8A7B1;
+
+  --color-dourado-100: #F2D28B;
+  --color-dourado-200: #C8A15A;
+
+  --color-neutro-100: #F5F1EE;
+  --color-neutro-200: #A59D9B;
+  --color-neutro-300: #1C1C1C;
+
+  --color-contraste-100: #5A7D7C;
+  --color-contraste-200: #FFFFFF;
+}
